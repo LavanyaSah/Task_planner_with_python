@@ -24,7 +24,7 @@ def show_tasks():
 def task_done():
     done_task=input("enter the task which is done:")
     Date_of_done=input("enter the date of task done(yyyy-mm-dd):")
-    q = ("insert into task_done (Taskdone,Day_of_task) values(%s,%s)")
+    q = ("insert into task_done (taskdone,date_of_taskdone) values(%s,%s)")
     data = (done_task, Date_of_done)
     cr = con.cursor()
     cr.execute(q, data)
@@ -96,6 +96,7 @@ if str(n) == num:
 else:
     print("Seems like it's not a human being -__-")
     print("You Can't Enter The Software. SORRY >_____<")
+
 
 
 
