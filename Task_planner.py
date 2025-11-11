@@ -93,6 +93,12 @@ n = int(input("Enter The Number Shown Above : "))
 if str(n) == num:
     print("               WELCOME THIS PROJECT IS MADE FOR THE TASKS MANAGEMENT")
     user_interface()
+else:
+    print("Seems like it's not a human being -__-")
+    print("You Can't Enter The Software. SORRY >_____<")
+
+
+
 
 
 
