@@ -64,9 +64,9 @@ def user_interface():
     print("PRESS 1- For showing particular day's tasks.")
     print("PRESS 2- For entering particular day's tasks done.")
     print("PRESS 3- For showing the tasks done between entered days.")
-    print("PRESS 4- For adding the new task to do that day.")
-    print("PRESS 5- For editing task:")
-    print("PRESS 6- For showing today's tasks:")
+    print("PRESS 4- For adding the new task to do that particular day.")
+    print("PRESS 5- For editing task.")
+    print("PRESS 6- For showing today's tasks.")
     num=int(input("Enter your choice:"))
     if num==4:
         add_task()
@@ -93,6 +93,7 @@ n = int(input("Enter The Number Shown Above : "))
 if str(n) == num:
     print("               WELCOME THIS PROJECT IS MADE FOR THE TASKS MANAGEMENT")
     user_interface()
+
 
 
 
